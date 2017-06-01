@@ -1,0 +1,20 @@
+{
+  "name": "opsidian",
+  "version": "0.0.1",
+  "description": "the sample tutorial bot for the messanger platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "opsidian git"
+  },
+  "keywords": [
+    "opsidian",
+    "facebook",
+    "bot"
+  ],
+  "author": "Onigbinde Ayomide",
+  "license": "MIT"
+}
