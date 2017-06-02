@@ -84,3 +84,17 @@ function receivedMessage(event){
   var messageText = message.text;
   var messageAttachments = message.attachments;
 }
+
+if (messageText) {
+    switch(messageText){
+        case 'Buttons':
+            quickButtons(senderID);
+            break;
+        case 'hello':
+            sendTextMessage(senderID,"Hello there!")
+            break;
+        default:
+            senderTextMessage(senderID,messageText)
+            }
+       callsenderID(messageData)
+       }
