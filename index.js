@@ -96,5 +96,19 @@ if (messageText) {
         default:
             senderTextMessage(senderID,messageText)
             }
-       callsenderID(messageData)
+       callsendAPI(messageData)
        }
+       
+       
+      function sendTextMessage(recipientId, messageText) {
+  var messageData = {
+    recipient: {
+      id: recipientId
+    },
+    message: {
+      text: messageText
+    }
+  };
+
+  callSendAPI(messageData);
+}
